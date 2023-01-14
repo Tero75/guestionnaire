@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> 
+        @font-face {
+           font-family: myFirstFont;
+           src: url(GemunuLibre-Regular.ttf);
+        }
+        * {
+           font-family: myFirstFont;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="myStyles.css">
+    <title>Awesome Query</title>
+</head>
+<body id="bodyBlock">
+    <div class="container-fluid">
+        <div class="headerTextClass d-none d-xl-block d-lg-block">
+        <header id="headerText"><h1>Questionaire</h1></header>
+    </div>
+    <div class="row">
+        <div class="column-left lg-2-md-1 d-none d-sm-block"></div>
+        <div class="column-center">.
+            <div id="startBlock">
+
+                <div class="WelcomaText d-none d-xl-block d-lg-block">
+                    <h1>Tervetuloa</h1>
+                    <p>Vastaa kysymyksiin parhaan kykysi mukaan.</p>
+                </div>
+
+                <button id="buttonStart"<i class="far fa-hand-point-right"></i>Aloita</button>
+            </div>
+            
+            <div id="questionsBlock">
+                <div class="QuestionText d-none d-xl-block d-lg-block ">
+                    <h1>Kysymys</h1>
+                    <p id="questionline"></p>
+                    <p id="answerBlock"></p>
+                </div>
+
+            </div>
+            
+            <div id="endSummary">
+                <div class="endSummaryText d-none d-xl-block d-lg-block ">
+                    <h1>Kooste</h1>
+                    <div id="endBlock"></div>
+                    <button id="buttonStartAgain" >Aloita alusta</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="column-right lg-2-md-1 d-none d-sm-block"></div>
+    </div>        
+</div>
+ <!--  
+<header id="headerText"><h1>Questionaire</h1></header>
+
+<div class="row">
+        <div class="column-left"></div>
+        <div class="column-center">.
+            <div id="startBlock">
+                <h1>Tervetuloa</h1>
+                <p>Vastaa kysymyksiin parhaan kykysi mukaan.</p>
+                <button id="buttonStart" >Aloita</button>
+            </div>
+            
+            <div id="questionsBlock">
+                <h1>Kysymys</h1>
+                <p id="questionline"></p>
+                <p id="answerBlock"></p>
+                
+            </div>
+            
+            <div id="endSummary">
+                <h1>Kooste</h1>
+                <div id="endBlock"></div>
+                <button id="buttonStartAgain" >Aloita alusta</button>
+            </div>
+        </div>
+        <div class="column-right"></div>
+</div>
+-->
+
+<script type="module" src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/d0edb8d0b5.js" crossorigin="anonymous"></script>
+</body>
+</html>
